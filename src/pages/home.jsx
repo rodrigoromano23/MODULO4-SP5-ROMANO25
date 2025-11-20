@@ -120,7 +120,7 @@ const Home = () => {
           className="
             fixed inset-0 z-[9999]
             flex md:hidden justify-center items-start
-            pt-74
+            pt-57
             px-5
             
           "
