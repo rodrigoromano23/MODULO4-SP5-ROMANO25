@@ -1,6 +1,6 @@
 import AppRouter from "./router/AppRouter";
 import { HeroesProvider } from "./context/HeroesContext";
-import "./index.css"; // Asegúrate de tener Tailwind importado
+import "./index.css"; 
 
 function App() {
   return (

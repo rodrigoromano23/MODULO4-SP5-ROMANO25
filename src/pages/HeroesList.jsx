@@ -1,31 +1,5 @@
-/*import { useContext } from "react";
-import { HeroesContext } from "../context/HeroesContext";
-import HeroCard from "../components/heroCard";
 
-const HeroesList = () => {
-  const { heroes } = useContext(HeroesContext);
-
-  return (
-    <div className="min-h-screen pt-24 p-6">
-      <h1 className="text-3xl text-center text-blue-600 font-bold mb-6">
-        Lista de Superhéroes
-      </h1>
-
-      {heroes.length === 0 ? (
-        <p className="text-center text-gray-600">No hay héroes aún...</p>
-      ) : (
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {heroes.map((hero) => (
-            <HeroCard key={hero.id} hero={hero} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
-
-export default HeroesList;*/
-//--------------------------------funacional----------------------------
+//--------------------------------funcional----------------------------
 import { useContext, useEffect } from "react";
 import { HeroesContext } from "../context/HeroesContext";
 import HeroCard from "../components/heroCard";
