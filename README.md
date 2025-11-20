@@ -88,13 +88,13 @@ React Toastify
 
 🔗 Ver la aplicación en Netlify
 
-(Reemplazar cuando la subas)
+(https://setupropioheroe.netlify.app/)
 
 📡 API utilizada
 
 Se utiliza un endpoint creado con MockAPI:
 
-🔗 https://URL-DE-TU-MOCKAPI/super
+🔗 https://691cb6f33aaeed735c91e0b0.mockapi.io/
 
 Cada superhéroe contiene:
 id, nombre, planeta, edad, habilidades, descripcion, imagen (opcional)
